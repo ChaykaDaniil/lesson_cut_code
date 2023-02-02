@@ -30,6 +30,12 @@ return [
 
     'disks' => [
 
+        'fixtures' => [
+            'driver' => 'local',
+            'root' => base_path('storage/Fixtures'),
+            'throw' => false,
+        ],
+
         'local' => [
             'driver' => 'local',
             'root' => storage_path('app'),
